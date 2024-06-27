@@ -1,6 +1,6 @@
 
 .top_container{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -31,7 +31,7 @@ width: 100%;
 }
 .twitter {
     position: absolute;
-    z-index: 20; /* Adjust z-index if necessary */
+    z-index: 20; 
     height: 20px;
     width: 20px;
     left: 275px;
@@ -40,11 +40,11 @@ width: 100%;
     border-style: solid;
      
 }
-/* //here is code */
+
 
 .discord {
     position: absolute;
-    z-index: 15; /* Adjust z-index if necessary */
+    z-index: 15; 
     height: 20px;
     width: 20px;
     left: 304px; 
@@ -70,13 +70,13 @@ width: 100%;
     height: 40%;
 }
 
-.the_image{
+/* .the_image{
     position: absolute;
     height: 100%;
     width: 98%;
     left: 5px ;
     top:-10px;
-}
+} */
 
 .soon_image{
     position:absolute;
@@ -86,8 +86,14 @@ width: 100%;
     left: 2px;
 }
 
-
+/* 
 @media screen and (max-width: 600px){
+    .background_gif{
+        height: 100%;
+        width: 100%;
+    
+        
+    }
 
     .R_image{
         left: 5px;
@@ -123,22 +129,22 @@ width: 100%;
     width: 90%;
     top:60px;
     left: 5px;
-}
+/* }
 .twitter {
-    
-   /* Adjust z-index if necessary */
-    height: 15px;
+/*     
+   /* Adjust z-index if necessary 
+    /* height: 15px;
     width: 15px;
     left: 105px;
     top : 40px;
     border-radius: 7px;
-    border-style: solid;
+    border-style: solid; 
      
-}
+} 
 
 .discord {
   
-    /* Adjust z-index if necessary */
+     Adjust z-index if necessary 
     height: 15px;
     width: 15px;
     left: 127px; 
@@ -147,24 +153,31 @@ width: 100%;
     border-style: solid;
     border-color: rgb(15, 113, 224);
 }
-}
-@media screen and (max-width: 600px){
+}  */
 
 
-}
-@media (max-width: 480px) {
+
+@media (max-width: 600px) {
+    .top_container{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        
+    }
     
     .R_image{
-        left: 5px;
-        height:100%;
-        width: 150%;
-        top: 10px;
-    }
+        left: 2px;
+        height:400px;
+        width: 400px;
+        top: 10px;}
     .Rift_image{
-        top: 10px;
-        left: 7px;
-        height:100%;
-        width: 150%;
+        top: 2px;
+        left:-5px;
+        height:500px;
+        width: 500px;
+    
+
 
     }
     
@@ -177,20 +190,22 @@ width: 100%;
     }
 
     .Rafter_image{
-        left:2px;
-        height: 55%;
-        top:130px;
-    
+        top:105px;
+        left:5px;
+        height: 300px;
+        min-width: 100%;
     }
     .soon_image{
-        height: 80%;
-        width: 110%;
-        top: 40px;
-        left: 5px;
+        left:10px;
+        top:35px ;
+        height: 380px;
+        width: 120%;
     }
     .twitter {
     
         /* Adjust z-index if necessary */
+        position: absolute;
+        display: none;
          height: 15px;
          width: 15px;
          left: 105px;
@@ -203,6 +218,8 @@ width: 100%;
      .discord {
        
          /* Adjust z-index if necessary */
+         position: absolute;
+         display: none;
          height: 15px;
          width: 15px;
          left: 127px; 
@@ -211,4 +228,13 @@ width: 100%;
          border-style: solid;
          border-color: rgb(0, 12, 25);
      }
+     .background_gif{
+        height: 100%;
+        width: 100%;
+    
+        
+    }
   }
+
+  
+
