@@ -1,0 +1,214 @@
+
+.top_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+}
+
+.background_gif{
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+.R_image{
+position: absolute;
+left:-10px;
+z-index:20;
+height: 100%;
+width: 100%;
+}
+
+.Rift_image{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    left:-5px;
+}
+.twitter {
+    position: absolute;
+    z-index: 20; /* Adjust z-index if necessary */
+    height: 20px;
+    width: 20px;
+    left: 275px;
+    top : 34px;
+    border-radius: 7px;
+    border-style: solid;
+     
+}
+/* //here is code */
+
+.discord {
+    position: absolute;
+    z-index: 15; /* Adjust z-index if necessary */
+    height: 20px;
+    width: 20px;
+    left: 304px; 
+    top : 34px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(0, 12, 25);
+}
+.Rafter_image{
+    position:absolute;
+    top:0px;
+    left:2px;
+    width: 100%;
+    height: 100%;
+}
+
+.Rafter_image1{
+    position:absolute;
+    
+    top:181px;
+    left:5px;
+    width: 56%;
+    height: 40%;
+}
+
+.the_image{
+    position: absolute;
+    height: 100%;
+    width: 98%;
+    left: 5px ;
+    top:-10px;
+}
+
+.soon_image{
+    position:absolute;
+    height: 100%;
+    width: 95%;
+    top:10px;
+    left: 2px;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .R_image{
+        left: 5px;
+        height:100%;
+        width: 100%;
+        top: 10px;
+    }
+    .Rift_image{
+        top: 10px;
+        left: 7px;
+        height:100%;
+        width: 100%;
+
+    }
+
+.Rafter_image{
+    top:10px;
+    left:3px;
+    height: 40%;
+    top:160px;
+
+}
+
+.Rafter_image1{
+    
+    top:166px;
+    left:3px;
+    width: 56%;
+    height: 50%;
+}
+.soon_image{
+    height: 100%;
+    width: 90%;
+    top:60px;
+    left: 5px;
+}
+.twitter {
+    
+   /* Adjust z-index if necessary */
+    height: 15px;
+    width: 15px;
+    left: 105px;
+    top : 40px;
+    border-radius: 7px;
+    border-style: solid;
+     
+}
+
+.discord {
+  
+    /* Adjust z-index if necessary */
+    height: 15px;
+    width: 15px;
+    left: 127px; 
+    top : 40px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(15, 113, 224);
+}
+}
+@media screen and (max-width: 600px){
+
+
+}
+@media (max-width: 480px) {
+    
+    .R_image{
+        left: 5px;
+        height:100%;
+        width: 150%;
+        top: 10px;
+    }
+    .Rift_image{
+        top: 10px;
+        left: 7px;
+        height:100%;
+        width: 150%;
+
+    }
+    
+    .Rafter_image1{
+     display: none;
+        top:166px;
+        left:3px;
+        width: 56%;
+        height: 50%;
+    }
+
+    .Rafter_image{
+        left:2px;
+        height: 55%;
+        top:130px;
+    
+    }
+    .soon_image{
+        height: 80%;
+        width: 110%;
+        top: 40px;
+        left: 5px;
+    }
+    .twitter {
+    
+        /* Adjust z-index if necessary */
+         height: 15px;
+         width: 15px;
+         left: 105px;
+         top : 40px;
+         border-radius: 7px;
+         border-style: solid;
+          
+     }
+     
+     .discord {
+       
+         /* Adjust z-index if necessary */
+         height: 15px;
+         width: 15px;
+         left: 127px; 
+         top : 40px;
+         border-radius: 7px;
+         border-style: solid;
+         border-color: rgb(0, 12, 25);
+     }
+  }
